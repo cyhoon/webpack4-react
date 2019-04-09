@@ -1,0 +1,15 @@
+{
+  "name": "webpack4-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jeffchoi72/webpack4-react.git",
+  "author": "jeffchoi72 <ihello0720@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  }
+}
