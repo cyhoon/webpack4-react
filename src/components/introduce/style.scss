@@ -1,0 +1,32 @@
+$mainColor: #222222;
+$mainFontSize: 18px;
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.profile {
+  display: block;
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: $mainFontSize;
+  color: $mainColor;
+  margin-right: 10px;
+}
+
+.content {
+  font-size: $mainFontSize;
+  color: $mainColor;
+}
