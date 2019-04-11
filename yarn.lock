@@ -1446,6 +1446,13 @@ clean-css@4.2.x:
   dependencies:
     source-map "~0.6.0"
 
+clean-webpack-plugin@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/clean-webpack-plugin/-/clean-webpack-plugin-2.0.1.tgz#2241526b0030aa0249e78714471298f867fc2829"
+  integrity sha512-vway5pXGVd91bicwjaf8j188Al6VMf9R9Ekl6q0qeiaWStRsOOXuh4qtjX1UrUvmz5XevQVCdjBuzr4Tzsnpog==
+  dependencies:
+    del "^4.0.0"
+
 cliui@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
@@ -1863,7 +1870,7 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
-del@^4.1.0:
+del@^4.0.0, del@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/del/-/del-4.1.0.tgz#049543b8290e1a9293e2bd150ab3a06f637322b8"
   integrity sha512-C4kvKNlYrwXhKxz97BuohF8YoGgQ23Xm9lvoHmgT7JaPGprSEjk3+XFled74Yt/x0ZABUHg2D67covzAPUKx5Q==
@@ -5773,10 +5780,10 @@ webpack-dev-middleware@^3.6.2:
     range-parser "^1.0.3"
     webpack-log "^2.0.0"
 
-webpack-dev-server@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-3.3.0.tgz#eee6b5cf0f754661aed796ffdcc9c6493a963a8b"
-  integrity sha512-75LTgV367MRDVIC+IBETrKEy9175+i5fy9nkw8MW+udnPCzNzSfZtKUIG5thQcooaNruPZZoEV8fCZqKJszOIw==
+webpack-dev-server@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-3.3.1.tgz#7046e49ded5c1255a82c5d942bcdda552b72a62d"
+  integrity sha512-jY09LikOyGZrxVTXK0mgIq9y2IhCoJ05848dKZqX1gAGLU1YDqgpOT71+W53JH/wI4v6ky4hm+KvSyW14JEs5A==
   dependencies:
     ansi-html "0.0.7"
     bonjour "^3.5.0"
