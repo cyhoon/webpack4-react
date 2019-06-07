@@ -8,7 +8,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // 더 나아가서 typescript + react 환경 구성
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "../build")
@@ -38,6 +38,9 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
       }
     ]
+  },
+  resolve: {
+    extensions: [".jsx", ".js"]
   },
   plugins: [
     new HtmlWebPackPlugin({

@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "../build")
@@ -40,6 +40,9 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
       }
     ]
+  },
+  resolve: {
+    extensions: [".jsx", ".js"]
   },
   plugins: [
     new HtmlWebPackPlugin({
