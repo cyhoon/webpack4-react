@@ -1,5 +1,5 @@
 import React from "react";
-import Introduce from "./components/introduce/Intrdocue";
+import Introduce from "./components/introduce";
 
 const Root = () => {
   return (
